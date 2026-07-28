@@ -52,7 +52,3 @@ def send_bulk_email_with_embedded_image(
         print(f"E-mail enviado para {recipient}")
 
     server.quit()
-        st.success(f"{enviados} e-mails enviados com sucesso!")
-
-    except Exception as e:
-        st.error(str(e))

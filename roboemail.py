@@ -1,7 +1,10 @@
+pip install openpyxl
+
 import streamlit as st
 import pandas as pd
 import smtplib
 import tempfile
+
 
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
